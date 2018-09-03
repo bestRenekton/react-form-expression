@@ -4,11 +4,12 @@
 >A small expression plugin based on REACT can add expression to the input box.
 
 <!---->
+## 演示
 ![](https://github.com/bestRenekton/react-form-expression/blob/master/example.gif)
 ## 原理
 + 用一张雪碧图存放所有表情
 + 不同代号对应不同表情
-	<!---->
+```javascript
 		[class*="expression-"] {
 		  background: url('./img/css_sprites.png');
 		  background-repeat: no-repeat;
@@ -24,6 +25,7 @@
 		.expression-biezui {
 		  background-position: -154px -154px;
 		}
+```
 + 选中表情后，在原始value字符串上拼接对应表情代码,比如 `::shuai`
 + 使用API：ExpressionFormatter ,将对应的表情代码转化为span标签，比如 `<span class="expression-shuai"></span>` 从而展示
 ## API
@@ -36,6 +38,7 @@
 	+ value:输入框的原始值
 	+ change方法：用于接受组件插入表情后返回的值
 ## 完整栗子
+```javascript
 	import React from 'react';
 	import ReactDOM from 'react-dom';
 	import { Expression, ExpressionFormatter } from 'react-form-expression'
@@ -80,3 +83,4 @@
 	        )
 	    }
 	}
+```
