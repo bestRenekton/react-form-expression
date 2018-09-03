@@ -1,7 +1,7 @@
 
 import { Expression, ExpressionFormatter } from './component/Expression/Expression'
+// import { Expression, ExpressionFormatter } from 'react-form-expression'
 
-//预览时使用
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -51,5 +51,3 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-//打包时使用
-// export default Expression;

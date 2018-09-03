@@ -1,7 +1,7 @@
 {
   "name": "react-form-expression",
-  "version": "1.0.0",
-  "description": "react-form-expression",
+  "version": "1.0.1",
+  "description": "a react plugin for expression",
   "main": "dist/component.js",
   "dependencies": {
     "react": "^16.4.1",
@@ -42,6 +42,20 @@
     "start": "npm run dev",
     "build": "webpack --config webpack.config.prod.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestRenekton/react-form-expression.git"
+  },
+  "keywords": [
+    "react",
+    "form",
+    "expression",
+    "plugin"
+  ],
   "author": "yangyuetao",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bestRenekton/react-form-expression/issues"
+  },
+  "homepage": "https://github.com/bestRenekton/react-form-expression#readme"
 }
