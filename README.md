@@ -3,6 +3,8 @@
 >
 >A small expression plugin based on REACT can add expression to the input box.
 
+<!---->
+![](https://github.com/bestRenekton/react-form-expression/blob/master/example.gif)
 ## 原理
 + 用一张雪碧图存放所有表情
 + 不同代号对应不同表情
