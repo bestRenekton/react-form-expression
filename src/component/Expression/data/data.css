@@ -1,0 +1,99 @@
+[class*="expression-"] {
+  background: url('./img/css_sprites.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  vertical-align: bottom;
+}
+
+.expression-baibai {
+  background-position: -58px -10px;
+}
+.expression-biezui {
+  background-position: -154px -154px;
+}
+.expression-bishi {
+  background-position: -10px -58px;
+}
+.expression-chuo {
+  background-position: -58px -58px;
+}
+.expression-dabin {
+  background-position: -106px -10px;
+}
+.expression-ganga {
+  background-position: -106px -58px;
+}
+.expression-huaixiao {
+  background-position: -10px -106px;
+}
+.expression-huaji {
+  background-position: -58px -106px;
+}
+.expression-keai {
+  background-position: -106px -106px;
+}
+.expression-ku {
+  background-position: -154px -10px;
+}
+.expression-leiben {
+  background-position: -154px -58px;
+}
+.expression-shuai {
+  background-position: -154px -106px;
+}
+.expression-tiaopi {
+  background-position: -10px -154px;
+}
+.expression-touxiao {
+  background-position: -58px -154px;
+}
+.expression-tuosai {
+  background-position: -106px -154px;
+}
+.expression-weixiao {
+  background-position: -10px -10px;
+}
+.expression-wunai {
+  background-position: -202px -10px;
+}
+.expression-xiaojiujie {
+  background-position: -202px -58px;
+}
+.expression-yinxian {
+  background-position: -202px -106px;
+}
+.expression-yun {
+  background-position: -202px -154px;
+}
+.expression-zan {
+  background-position: -10px -202px;
+}
+.expression-ziya {
+  background-position: -58px -202px;
+}
+.expression-aa {
+  background-position: -106px -202px;
+}
+.expression-dinai {
+  background-position: -154px -202px;
+}
+.expression-han {
+  background-position: -202px -202px;
+}
+.expression-jincai {
+  background-position: -250px -10px;
+}
+.expression-jing {
+  background-position: -250px -58px;
+}
+.expression-yi1 {
+  background-position: -250px -106px;
+}
+.expression-yi2 {
+  background-position: -250px -154px;
+}
+.expression-zhuerchong {
+  background-position: -250px -202px;
+}

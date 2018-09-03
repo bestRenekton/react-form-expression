@@ -1,0 +1,54 @@
+.expressionBox {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    .expression_head {
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      &.on,
+      &:hover {
+        color: rgba(0, 129, 255, 0.7);
+      }
+    }
+    .expression_body {
+      position: absolute;
+      right: -130px;
+      top: 45px;
+      width: 320px;
+      border: 1px solid #ddd;
+      background: #fff;
+      box-sizing: border-box;
+      border-radius: 6px;
+      // overflow: scroll;
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid #eee;
+        border-left: 1px solid #eee;
+        margin: 0;
+        padding: 0;
+        li {
+          list-style-type: none;
+          flex: 0 0 10%;
+          height: 47px;
+          border-bottom: 1px solid #eee;
+          border-right: 1px solid #eee;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .expression {
+      .expression_body {
+        right: 0;
+        width: 520px;
+      }
+    }
+  }
