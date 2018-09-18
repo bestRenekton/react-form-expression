@@ -31,7 +31,7 @@
 ## API
 + ExpressionFormatter：将对应的表情代码转化为span标签，比如`<span class="expression-shuai"></span>`从而展示
 ## 食用
-+ `npm i react-form-expression` 或者 `cnpm i react-form-expression`
++ `cnpm i react-form-expression`(建议。。。) 或者 `npm i react-form-expression`
 + `import { Expression, ExpressionFormatter } from 'react-form-expression'`
 + `<Expression value={this.state.value} change={this.changeValue} />`
 + 需要传2个props进入组件，value和change
