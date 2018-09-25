@@ -53,9 +53,6 @@
 	        this.handleChange = this.handleChange.bind(this);
 	        this.changeValue = this.changeValue.bind(this);
 	    }
-	    componentDidUpdate() {
-	        document.getElementById("comment").innerHTML = this.state.comment;
-	    }
 	    handleChange(event) {
 	        let newValue = event.target.value;
 	        let newComment = ExpressionFormatter(newValue);
@@ -76,7 +73,7 @@
 	    render() {
 	        return (
 	            <div>
-	                <p id="comment"></p>
+                	<p dangerouslySetInnerHTML = {{ __html: this.state.comment }}></p>
 	                <textarea value={this.state.value} onChange={this.handleChange} cols="100" rows="10"></textarea>
 	                <Expression value={this.state.value} change={this.changeValue} />
 	            </div>
